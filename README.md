@@ -31,7 +31,6 @@ The study maps agro-industrial residue potential in West Java, Indonesia by inte
 ├── docs/
 │   ├── data_dictionary.md
 │   ├── qgis_mapping_workflow.md
-│   └── repository_file_manifest.md
 ├── notebooks/
 │   ├── 00_gee_export_remote_sensing_layers.ipynb
 │   ├── 01_residue_estimation_and_facility_preprocessing.ipynb
