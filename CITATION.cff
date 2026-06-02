@@ -3,7 +3,17 @@ title: "Multi-Source Geospatial AI Framework for Mapping Agro-Industrial Residue
 message: "If you use this repository, please cite the associated paper and this repository."
 type: software
 authors:
-  - family-names: "Junervin"
+  - family-names: Sanjaya
+    given-names: Dimas Bangkit
+  - family-names: Cantika
+    given-names: Desvita Nursayla Putri
+  - family-names: Syafira
+    given-names: Nazwa Hilda
+  - family-names: Khoerunisa
+    given-names: Salwa Asysyifa
+  - family-names: Hakim
+    given-names: Muhammad Luqmanul
+  - family-names: Junervin
     given-names: ""
 repository-code: "https://github.com/junervin12/carbonmap"
 abstract: "Code and documentation for reproducible geospatial suitability mapping of agro-industrial residue potential for biomass-derived carbon nanomaterial feedstock planning."
