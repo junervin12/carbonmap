@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+title: "Multi-Source Geospatial AI Framework for Mapping Agro-Industrial Residue Potential for Biomass-Derived Carbon Nanomaterial Feedstock"
+message: "If you use this repository, please cite the associated paper and this repository."
+type: software
+authors:
+  - family-names: "Junervin"
+    given-names: ""
+repository-code: "https://github.com/junervin12/carbonmap"
+abstract: "Code and documentation for reproducible geospatial suitability mapping of agro-industrial residue potential for biomass-derived carbon nanomaterial feedstock planning."
+keywords:
+  - geospatial artificial intelligence
+  - biomass residue
+  - carbon nanomaterials
+  - Sentinel-2
+  - nighttime lights
+  - machine learning
+  - deep learning
+license: MIT
+version: "1.0.0"
+date-released: "2026-05-29"

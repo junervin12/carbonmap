@@ -1,0 +1,46 @@
+project:
+  name: geospatial_biomass_carbon_nanmaterial_feedstock
+  study_area: West Java, Indonesia
+  crs_geographic: EPSG:4326
+  crs_projected: EPSG:32748
+
+paths:
+  data_raw: data/raw
+  data_interim: data/interim
+  data_processed: data/processed
+  data_external: data/external
+  outputs_figures: outputs/figures
+  outputs_tables: outputs/tables
+  outputs_maps: outputs/maps
+  outputs_models: outputs/models
+
+files:
+  boundary: boundary_kabupaten_kota_jawa_barat_27_big.geojson
+  crop_production_panel: crop_production_panel_2017_2022.xlsx
+  osm_major_roads: osm_major_roads_jawa_barat.geojson
+  agroindustry_facilities: agroindustry_facilities_jawa_barat_final.geojson
+  sentinel2_indices: sentinel2_indices_jawa_barat_2024_scale50.tif
+  viirs_ntl: viirs_nighttime_lights_jawa_barat_2024.tif
+  esa_worldcover: esa_worldcover_jawa_barat.tif
+  cropland_mask: cropland_mask_jawa_barat.tif
+
+modeling:
+  grid_size_m: 1000
+  patch_size: 128
+  stride: 128
+  class_nodata: 255
+  confidence_nodata: -9999
+  classes:
+    0: Very Low
+    1: Low
+    2: Moderate
+    3: High
+    4: Very High
+
+rule_based_weights:
+  residue_score: 0.40
+  agroindustry_proximity_score: 0.20
+  road_accessibility_score: 0.15
+  nighttime_light_score: 0.10
+  cropland_score: 0.10
+  environmental_score: 0.05

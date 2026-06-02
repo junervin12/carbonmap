@@ -1,0 +1,28 @@
+name: geospatial-biomass-ai
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - geopandas
+  - shapely
+  - pyproj
+  - rasterio
+  - rioxarray
+  - xarray
+  - scikit-learn
+  - matplotlib
+  - openpyxl
+  - tqdm
+  - pyyaml
+  - pip
+  - pip:
+      - exactextract
+      - rasterstats
+      - xgboost
+      - torch
+      - torchvision
+      - segmentation-models-pytorch

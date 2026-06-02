@@ -1,0 +1,52 @@
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+
+# Secrets and API keys
+secrets.*
+*api_key*
+*API_KEY*
+credentials.json
+token.json
+
+# Large geospatial binaries: store via Zenodo/OSF/Google Drive/Git LFS, not ordinary Git
+*.tif
+*.tiff
+*.gpkg
+*.geojson
+*.shp
+*.shx
+*.dbf
+*.prj
+*.cpg
+*.zip
+*.7z
+*.rar
+*.npy
+*.npz
+*.pth
+*.pt
+*.ckpt
+
+# QGIS autosave and temporary files
+*.qgz~
+*.qgs~
+*.qml~
+*.aux.xml
+*.ovr
+*.lock
+
+# Local outputs
+outputs/models/*
+outputs/maps/*
+outputs/figures/*
+outputs/tables/*
+!outputs/models/.gitkeep
+!outputs/maps/.gitkeep
+!outputs/figures/.gitkeep
+!outputs/tables/.gitkeep
